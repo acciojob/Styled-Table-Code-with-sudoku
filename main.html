@@ -1,34 +1,88 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+	 <style>
+        table {
+/*              */
+            width: 100%;
+			border:1px solid black;
+			border-radius: 10px
+/* 			border-collapse: collapse; */
+        }
+		 th{
+			 background-color:darkblue;
+			 color:white
+		 }
+          
+        th, td {
+            text-align: left;
+/* 			border-collapse: collapse; */
+            padding: 8px;
+        }
+          
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
 </head>
-
 <body>
-	<table  >
-		<caption>Student Details</caption>
-		<tr>
-			<th>NAME</th>
-			<th>AGE</th>
-			<th>BRANCH</th>
-		</tr>
-		<tr>
-			<td>Shaw</td>
-			<td>20</td>
-			<td>CSE</td>
-			
-		</tr>
-		<tr>
-			<td>Adil</td>
-			<td>21</td>
-			<td>ECE</td>
-		</tr>
-	</table>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- add table here -->
+	<table>
+		<thead>
+        <tr>
+            <th>NAME</th>
+            <th>KILLS</th>
+            <th>SAVED</th>
+			            <th>DEATHS</th>
+            <th>REVIES</th>
+            <th>WIN</th>
+        </tr>
+		</thead>
+		<tbody>
+        <tr>
+            <td>Hackerman</td>
+            <td>10</td>
+            <td>0</td>
+			<td>1</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+          
 
+        <tr>
+            <td>Cool Doggo</td>
+            <td>13</td>
+            <td>4</td>
+			<td>8</td>
+            <td>7</td>
+            <td>1</td>
+        </tr>
+          
+        <tr>
+            <td>Andrews</td>
+            <td>19</td>
+            <td>2</td>
+			<td>10</td>
+            <td>11</td>
+            <td>0</td>
+        </tr>
+          
+        <tr>
+           <td>Strawberry</td>
+            <td>2</td>
+            <td>9</td>
+			<td>3</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+		</tbody>
+    </table>
+
+        
 </body>
-
 </html>
